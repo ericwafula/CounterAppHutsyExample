@@ -143,7 +143,8 @@ class CounterViewModel : ViewModel() {
         state = state.copy(
             progressTextColor = progressProperties.textColor,
             progressColor = progressProperties.color,
-            emoji = progressProperties.emoji
+            emoji = progressProperties.emoji,
+            emojiSize = progressProperties.emojiSize
         )
     }
 
